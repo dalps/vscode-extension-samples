@@ -24,7 +24,7 @@ class ColorsViewProvider implements vscode.WebviewViewProvider {
 
 	private _view?: vscode.WebviewView;
 
-	constructor(
+	constructor(x
 		private readonly _extensionUri: vscode.Uri,
 	) { }
 

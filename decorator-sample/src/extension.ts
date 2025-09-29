@@ -9,7 +9,7 @@ export function activate(context: vscode.ExtensionContext) {
 
 	// create a decorator type that we use to decorate small numbers
 	const smallNumberDecorationType = vscode.window.createTextEditorDecorationType({
-		borderWidth: '1px',
+		borderWidth: '2px',
 		borderStyle: 'solid',
 		overviewRulerColor: 'blue',
 		overviewRulerLane: vscode.OverviewRulerLane.Right,

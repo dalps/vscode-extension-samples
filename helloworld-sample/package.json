@@ -17,7 +17,11 @@
 		"commands": [
 			{
 				"command": "extension.helloWorld",
-				"title": "Hello World"
+				"title": "Echo \"Hello World\""
+			},
+			{
+				"command": "extension.showTime",
+				"title": "Show current time"
 			}
 		]
 	},

@@ -60,11 +60,12 @@
 
 		addPoint(/** @type {number} */ x, /** @type {number} */ y) {
 			if (this.currentStroke) {
+				console.log("hi");
 				this.currentStroke.addPoint(x, y)
 			}
 		}
 
-		beginStoke(/** @type {string} */ color) {
+		beginStroke(/** @type {string} */ color) {
 			this.currentStroke = new Stroke(color);
 			this.strokes.push(this.currentStroke);
 		}
@@ -116,7 +117,7 @@
 					return;
 				}
 
-				this.beginStoke(this.drawingColor);
+				this.beginStroke(this.drawingColor);
 				this.drawingCtx.strokeStyle = this.drawingColor;
 
 				isDrawing = true;

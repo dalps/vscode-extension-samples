@@ -11,6 +11,7 @@ html, body {
 	align-items: center;
 	background-repeat: repeat;
 	flex-direction: column;
+	background-color: #fff;
 }
 
 .drawing-controls {
